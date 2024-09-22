@@ -36,40 +36,40 @@ def Hungerbar(screen, x, y, hunger):
 
 
 # Intro screen
-intro_surface = pygame.image.load('C:/Users/elroy/Desktop/LIFEOFPI/images/image.jpg')
+intro_surface = pygame.image.load('ENTER LOCATION')
 intro_surface = pygame.transform.scale(intro_surface, (1900, 1000))
 
 # Outro screen
-outro_surface = pygame.image.load('C:/Users/elroy/Desktop/LIFEOFPI/images/deathscreen.jpg')
+outro_surface = pygame.image.load('ENTER LOCATION')
 outro_surface = pygame.transform.scale(outro_surface, (1900, 1000))
 
 #Win screen
-win_surface = pygame.image.load ('C:/Users/elroy/Desktop/LIFEOFPI/images/winscreen.png')
+win_surface = pygame.image.load ('ENTER LOCATION')
 win_surface = pygame.transform.scale(win_surface, (1900, 1000))
 
 
 # Text
-test_font = pygame.font.Font('C:/Users/elroy/Desktop/LIFEOFPI/font/Pixeltype.ttf', 50)
+test_font = pygame.font.Font('ENTER LOCATION', 50)
 Health_display = test_font.render("Health", False, (0, 0, 0))
 Hunger_display = test_font.render("Hunger", False, (0, 0, 0))
 
 # Lifeboat
-lifeboat_surface = pygame.image.load('C:/Users/elroy/Desktop/LIFEOFPI/images/raftRPandPatel.png')
+lifeboat_surface = pygame.image.load('ENTER LOCATION')
 lifeboat_surface = pygame.transform.rotozoom(lifeboat_surface, 0, 0.75)
 lifeboat_rect = lifeboat_surface.get_rect(center=(200, 540))
 
 # Background
-ocean_surface = pygame.image.load('C:/Users/elroy/Desktop/LIFEOFPI/images/oceanthing.png')
+ocean_surface = pygame.image.load('ENTER LOCATION')
 ocean_surface = pygame.transform.scale(ocean_surface, (1900, 1000))
 screen = pygame.display.set_mode((1900, 1000))
 
 # Fishes
-dodaro_surface = pygame.image.load('C:/Users/elroy/Desktop/LIFEOFPI/images/dodarado.png')
+dodaro_surface = pygame.image.load('ENTER LOCATION')
 dodaro_surface = pygame.transform.rotozoom(dodaro_surface, 0, 0.2)
 dodaro_rect = dodaro_surface.get_rect(center=(1700, 540))  # Adjust the initial position as needed
 
 # Seaturtle
-seaturtle_surface = pygame.image.load('C:/Users/elroy/Desktop/LIFEOFPI/images/seaturtle.png')
+seaturtle_surface = pygame.image.load('ENTER LOCATION')
 seaturtle_surface = pygame.transform.rotozoom(seaturtle_surface, 0, 0.2)
 seaturtle_rect = seaturtle_surface.get_rect(center=(1700, 540))
 
